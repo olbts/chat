@@ -7,71 +7,6 @@
     <link rel="stylesheet" href="chat.css">
 </head>
 <body>
-    <!-- <style>
-         body{
-            text-align:center; 
-           
-        /* Le style */
-            
-            
-        }
-        h1{
-                color:rgb(179, 121, 167);
-            }
-        div{
-            margin : 5px;
-        }
-        .all{
-            display:flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        #chat{
-            border : 1px solid rgb(37, 165, 84);
-            height: 300px;
-            width: 275px;
-            border-radius: 12px;
-            overflow: scroll;
-            overflow-x: hidden;
-        }
-        .red{
-            color : red;    
-            text-align : left; 
-
-        }
-        .blue{
-            color : blue;
-            text-align : right; 
-            
-        } 
-        button{
-            width: 250px;
-            height: 30px;
-            background-color: brown;
-            color: bisque;
-            border-radius: 8px;
-            margin-top: 7px;
-        }
-        input{
-            width: 250px;
-            height: 30px;
-            border-radius: 30px;
-            border : 2px solid rgb(238, 196, 141);
-            color: rgb(92, 26, 154);
-            text-align : center
-        }
-        input::placeholder{
-            color:rgb(160, 133, 184);
-            text-align : center
-        }
-        span{
-            color : gray;
-            font-size: 14px;
-        }
-        
-    </style> -->
     <h1>Chat</h1>
     <!-- On crée 2 boutons -->
 <div class="all">
@@ -98,36 +33,7 @@
 </div>
 
 
-<!-- Javascript -->
-<!-- <script>//Pour écrire en javascript
-    // on crée des variables basés sur les id 
-    //donc si on a un element avec un id = voila on fera document.querySelector("#voila")
-    //si on a un element avec une class = voila on fera document.querySelector(".voila")
-   
-      
-    const inputPremier = document.querySelector("#inputPremier")  
-    const inputDeuxieme = document.querySelector("#inputDeuxieme")
-    const buttonPremier = document.querySelector("#buttonPremier")
-    const buttonDeuxieme = document.querySelector("#buttonDeuxieme")
-    const chat = document.querySelector("#chat")
-    
-    //on crée un evenement quand on clique sur l element buttonPremier 
-    //ce que contient la fonction s'éxecute
-   
-   function premierePersonneFonction(){
-    chat.innerHTML =  chat.innerHTML + "<div class='red'>" + inputPremier.value + "</div>";
-        inputPremier.value = "";
-   }
-
-    buttonPremier.addEventListener("click",premierePersonneFonction)
-   
-    function deuxiemePersonneFonction (){
-        chat.innerHTML =  chat.innerHTML + "<div class='blue'>" +  inputDeuxieme.value + "</div>";
-        inputDeuxieme.value = "";
-    }
-
-    buttonDeuxieme.addEventListener("click",deuxiemePersonneFonction) 
-</script> -->
+ 
 <script src="chat.js"></script>
 </body>
 </html>
