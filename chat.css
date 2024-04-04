@@ -1,0 +1,69 @@
+body{
+    text-align:center; 
+   
+/* Le style */
+    
+    
+}
+h1{
+        color:rgb(179, 121, 167);
+    }
+div{
+    margin : 5px;
+}
+.all{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#chat{
+    border : 1px solid rgb(37, 165, 84);
+    height: 300px;
+    width: 275px;
+    border-radius: 12px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.red{
+    color : rgb(233, 75, 75);    
+    text-align : left; 
+
+}
+.blue{
+    color : rgb(91, 91, 238);
+    text-align : right; 
+    
+} 
+button{
+    width: 250px;
+    height: 30px;
+    background-color: brown;
+    color: bisque;
+    border-radius: 8px; 
+    margin-top: 7px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    border : 2px solid rgb(238, 196, 141);
+    color: rgb(92, 26, 154);
+    text-align : center
+}
+input::placeholder{
+    color:rgb(160, 133, 184);
+    text-align : center
+}
+.date{
+    
+    color : gray;
+    font-size: 10px;
+}
+.messageHolder{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-wrap: wrap;
+}
